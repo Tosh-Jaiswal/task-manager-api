@@ -16,7 +16,7 @@ const CancelationMail = (email, name) => {
         to: email,
         from: 'toshjais@gmail.com',
         subject: 'Sorry to see you go!',
-        text: `Goodbye, ${name}. I hope to see you back sometime soon.`
+        text: `Goodbye, ${name}. I hope to see you back very soon.`
     })
 }
 module.exports = {
